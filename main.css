@@ -1,0 +1,107 @@
+/*HEADER----------------------------------------*/
+.header {
+    border: 1px solid grey;
+    color: white;
+    background-color: darkred;
+}
+
+.photo {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    width: 60%;
+}
+
+/*Nom, téléphone, e-mail*/
+.notelmail {
+    line-height: 1;
+    padding-top: 40px;
+}
+
+#name {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* liens adresse e-mail en blanc sans sous-ligné */
+#link {
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active { text-decoration: none;
+}
+a:link { text-decoration: none; 
+}
+a:visited { text-decoration: none; 
+}
+
+/* // HEADER-----------------------------------------*/
+
+/*CONTENT----------------------------------------*/
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+}
+
+.intitulé p {
+    text-align: center;
+    line-height: 0.5;
+    margin-top: 5px;
+}
+
+.corps {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: darkred;
+    font-weight: bold;
+    border-bottom: 1px solid darkred;
+    line-height: 1em;
+}
+
+p {
+    line-height: 1;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.lieu {
+    color: darkred;
+}
+
+.date {
+    float: right;   
+}
+
+li {
+    font-style: italic;
+}
+
+.langues h2 {
+    padding-top: 10px;
+}
+
+.interets h2 {
+    padding-top: 10px;
+}
+
+/* // CONTENT----------------------------------------*/
+
+/*FOOTER ----------------------------------------*/
+.pied-de-page {
+    margin-top: 1.5rem;
+    text-align: center;
+    color: darkred;
+    line-height: 0.8;
+}
+/* // FOOTER ----------------------------------------*/
